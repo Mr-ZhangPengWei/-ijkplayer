@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09334E829F7B3A80053EB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09334E729F7B3A80053EB82 /* AppDelegate.m */; };
+		A09334EB29F7B3A80053EB82 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09334EA29F7B3A80053EB82 /* SceneDelegate.m */; };
+		A09334EE29F7B3A80053EB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09334ED29F7B3A80053EB82 /* ViewController.m */; };
+		A09334F129F7B3A80053EB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09334EF29F7B3A80053EB82 /* Main.storyboard */; };
+		A09334F329F7B3AA0053EB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09334F229F7B3AA0053EB82 /* Assets.xcassets */; };
+		A09334F629F7B3AA0053EB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09334F429F7B3AA0053EB82 /* LaunchScreen.storyboard */; };
+		A09334F929F7B3AA0053EB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A09334F829F7B3AA0053EB82 /* main.m */; };
+		A093350329F7B3AA0053EB82 /* IJKMediaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A093350229F7B3AA0053EB82 /* IJKMediaDemoTests.m */; };
+		A093350D29F7B3AA0053EB82 /* IJKMediaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A093350C29F7B3AA0053EB82 /* IJKMediaDemoUITests.m */; };
+		A093350F29F7B3AA0053EB82 /* IJKMediaDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A093350E29F7B3AA0053EB82 /* IJKMediaDemoUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A09334FF29F7B3AA0053EB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09334DB29F7B3A80053EB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09334E229F7B3A80053EB82;
+			remoteInfo = IJKMediaDemo;
+		};
+		A093350929F7B3AA0053EB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09334DB29F7B3A80053EB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09334E229F7B3A80053EB82;
+			remoteInfo = IJKMediaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A09334E329F7B3A80053EB82 /* IJKMediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJKMediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09334E629F7B3A80053EB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A09334E729F7B3A80053EB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A09334E929F7B3A80053EB82 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A09334EA29F7B3A80053EB82 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A09334EC29F7B3A80053EB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A09334ED29F7B3A80053EB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A09334F029F7B3A80053EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A09334F229F7B3AA0053EB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A09334F529F7B3AA0053EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A09334F729F7B3AA0053EB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09334F829F7B3AA0053EB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A09334FE29F7B3AA0053EB82 /* IJKMediaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJKMediaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A093350229F7B3AA0053EB82 /* IJKMediaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKMediaDemoTests.m; sourceTree = "<group>"; };
+		A093350829F7B3AA0053EB82 /* IJKMediaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJKMediaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A093350C29F7B3AA0053EB82 /* IJKMediaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKMediaDemoUITests.m; sourceTree = "<group>"; };
+		A093350E29F7B3AA0053EB82 /* IJKMediaDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKMediaDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09334E029F7B3A80053EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09334FB29F7B3AA0053EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A093350529F7B3AA0053EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A09334DA29F7B3A80053EB82 = {
+			isa = PBXGroup;
+			children = (
+				A09334E529F7B3A80053EB82 /* IJKMediaDemo */,
+				A093350129F7B3AA0053EB82 /* IJKMediaDemoTests */,
+				A093350B29F7B3AA0053EB82 /* IJKMediaDemoUITests */,
+				A09334E429F7B3A80053EB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A09334E429F7B3A80053EB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09334E329F7B3A80053EB82 /* IJKMediaDemo.app */,
+				A09334FE29F7B3AA0053EB82 /* IJKMediaDemoTests.xctest */,
+				A093350829F7B3AA0053EB82 /* IJKMediaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09334E529F7B3A80053EB82 /* IJKMediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A09334E629F7B3A80053EB82 /* AppDelegate.h */,
+				A09334E729F7B3A80053EB82 /* AppDelegate.m */,
+				A09334E929F7B3A80053EB82 /* SceneDelegate.h */,
+				A09334EA29F7B3A80053EB82 /* SceneDelegate.m */,
+				A09334EC29F7B3A80053EB82 /* ViewController.h */,
+				A09334ED29F7B3A80053EB82 /* ViewController.m */,
+				A09334EF29F7B3A80053EB82 /* Main.storyboard */,
+				A09334F229F7B3AA0053EB82 /* Assets.xcassets */,
+				A09334F429F7B3AA0053EB82 /* LaunchScreen.storyboard */,
+				A09334F729F7B3AA0053EB82 /* Info.plist */,
+				A09334F829F7B3AA0053EB82 /* main.m */,
+			);
+			path = IJKMediaDemo;
+			sourceTree = "<group>";
+		};
+		A093350129F7B3AA0053EB82 /* IJKMediaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A093350229F7B3AA0053EB82 /* IJKMediaDemoTests.m */,
+			);
+			path = IJKMediaDemoTests;
+			sourceTree = "<group>";
+		};
+		A093350B29F7B3AA0053EB82 /* IJKMediaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A093350C29F7B3AA0053EB82 /* IJKMediaDemoUITests.m */,
+				A093350E29F7B3AA0053EB82 /* IJKMediaDemoUITestsLaunchTests.m */,
+			);
+			path = IJKMediaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09334E229F7B3A80053EB82 /* IJKMediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A093351229F7B3AA0053EB82 /* Build configuration list for PBXNativeTarget "IJKMediaDemo" */;
+			buildPhases = (
+				A09334DF29F7B3A80053EB82 /* Sources */,
+				A09334E029F7B3A80053EB82 /* Frameworks */,
+				A09334E129F7B3A80053EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IJKMediaDemo;
+			productName = IJKMediaDemo;
+			productReference = A09334E329F7B3A80053EB82 /* IJKMediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A09334FD29F7B3AA0053EB82 /* IJKMediaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A093351529F7B3AA0053EB82 /* Build configuration list for PBXNativeTarget "IJKMediaDemoTests" */;
+			buildPhases = (
+				A09334FA29F7B3AA0053EB82 /* Sources */,
+				A09334FB29F7B3AA0053EB82 /* Frameworks */,
+				A09334FC29F7B3AA0053EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A093350029F7B3AA0053EB82 /* PBXTargetDependency */,
+			);
+			name = IJKMediaDemoTests;
+			productName = IJKMediaDemoTests;
+			productReference = A09334FE29F7B3AA0053EB82 /* IJKMediaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A093350729F7B3AA0053EB82 /* IJKMediaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A093351829F7B3AA0053EB82 /* Build configuration list for PBXNativeTarget "IJKMediaDemoUITests" */;
+			buildPhases = (
+				A093350429F7B3AA0053EB82 /* Sources */,
+				A093350529F7B3AA0053EB82 /* Frameworks */,
+				A093350629F7B3AA0053EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A093350A29F7B3AA0053EB82 /* PBXTargetDependency */,
+			);
+			name = IJKMediaDemoUITests;
+			productName = IJKMediaDemoUITests;
+			productReference = A093350829F7B3AA0053EB82 /* IJKMediaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09334DB29F7B3A80053EB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A09334E229F7B3A80053EB82 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A09334FD29F7B3AA0053EB82 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A09334E229F7B3A80053EB82;
+					};
+					A093350729F7B3AA0053EB82 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A09334E229F7B3A80053EB82;
+					};
+				};
+			};
+			buildConfigurationList = A09334DE29F7B3A80053EB82 /* Build configuration list for PBXProject "IJKMediaDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09334DA29F7B3A80053EB82;
+			productRefGroup = A09334E429F7B3A80053EB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09334E229F7B3A80053EB82 /* IJKMediaDemo */,
+				A09334FD29F7B3AA0053EB82 /* IJKMediaDemoTests */,
+				A093350729F7B3AA0053EB82 /* IJKMediaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09334E129F7B3A80053EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09334F629F7B3AA0053EB82 /* LaunchScreen.storyboard in Resources */,
+				A09334F329F7B3AA0053EB82 /* Assets.xcassets in Resources */,
+				A09334F129F7B3A80053EB82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09334FC29F7B3AA0053EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A093350629F7B3AA0053EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09334DF29F7B3A80053EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09334EE29F7B3A80053EB82 /* ViewController.m in Sources */,
+				A09334E829F7B3A80053EB82 /* AppDelegate.m in Sources */,
+				A09334F929F7B3AA0053EB82 /* main.m in Sources */,
+				A09334EB29F7B3A80053EB82 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09334FA29F7B3AA0053EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A093350329F7B3AA0053EB82 /* IJKMediaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A093350429F7B3AA0053EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A093350F29F7B3AA0053EB82 /* IJKMediaDemoUITestsLaunchTests.m in Sources */,
+				A093350D29F7B3AA0053EB82 /* IJKMediaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A093350029F7B3AA0053EB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09334E229F7B3A80053EB82 /* IJKMediaDemo */;
+			targetProxy = A09334FF29F7B3AA0053EB82 /* PBXContainerItemProxy */;
+		};
+		A093350A29F7B3AA0053EB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09334E229F7B3A80053EB82 /* IJKMediaDemo */;
+			targetProxy = A093350929F7B3AA0053EB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09334EF29F7B3A80053EB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09334F029F7B3A80053EB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A09334F429F7B3AA0053EB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09334F529F7B3AA0053EB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A093351029F7B3AA0053EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A093351129F7B3AA0053EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A093351329F7B3AA0053EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IJKMediaDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gete.IJKMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A093351429F7B3AA0053EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IJKMediaDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gete.IJKMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A093351629F7B3AA0053EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gete.IJKMediaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJKMediaDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IJKMediaDemo";
+			};
+			name = Debug;
+		};
+		A093351729F7B3AA0053EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gete.IJKMediaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJKMediaDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IJKMediaDemo";
+			};
+			name = Release;
+		};
+		A093351929F7B3AA0053EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gete.IJKMediaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IJKMediaDemo;
+			};
+			name = Debug;
+		};
+		A093351A29F7B3AA0053EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gete.IJKMediaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IJKMediaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09334DE29F7B3A80053EB82 /* Build configuration list for PBXProject "IJKMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A093351029F7B3AA0053EB82 /* Debug */,
+				A093351129F7B3AA0053EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A093351229F7B3AA0053EB82 /* Build configuration list for PBXNativeTarget "IJKMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A093351329F7B3AA0053EB82 /* Debug */,
+				A093351429F7B3AA0053EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A093351529F7B3AA0053EB82 /* Build configuration list for PBXNativeTarget "IJKMediaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A093351629F7B3AA0053EB82 /* Debug */,
+				A093351729F7B3AA0053EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A093351829F7B3AA0053EB82 /* Build configuration list for PBXNativeTarget "IJKMediaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A093351929F7B3AA0053EB82 /* Debug */,
+				A093351A29F7B3AA0053EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09334DB29F7B3A80053EB82 /* Project object */;
+}
